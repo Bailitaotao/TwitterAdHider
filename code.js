@@ -13,7 +13,7 @@
 // @description:ja      X/Twitter ウェブサイト上のプロモーションツイート（広告）を非表示にします。
 // @description:es      Oculta los tweets promocionados (anuncios) en el sitio web de X/Twitter.
 // @description:ar      يخفي التغريدات المروجة (الإعلانات) على موقع X/Twitter.
-// @author       Your Name (or AI)
+// @author       Timothy Tao
 // @match        https://twitter.com/*
 // @match        https://x.com/*
 // @icon         https://x.com/favicon.ico
