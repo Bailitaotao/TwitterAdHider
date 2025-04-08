@@ -6,7 +6,7 @@
 // @name:es      Ocultar Anuncios de X/Twitter
 // @name:ar      إخفاء إعلانات X/Twitter
 // @namespace    http://tampermonkey.net/
-// @version      0.1.1
+// @version      0.1.2
 // @description  Hides promoted tweets (ads) on the X/Twitter website.
 // @description:zh-CN 在 X/Twitter 网站上隐藏推广推文（广告）。
 // @description:zh-TW 在 X/Twitter 網站上隱藏推廣推文（廣告）。
@@ -16,6 +16,7 @@
 // @author       Your Name (or AI)
 // @match        https://twitter.com/*
 // @match        https://x.com/*
+// @icon         https://x.com/favicon.ico
 // @grant        none
 // @run-at       document-idle
 // @license      MIT
