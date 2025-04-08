@@ -6,7 +6,7 @@
 // @name:es      Ocultar Anuncios de X/Twitter
 // @name:ar      إخفاء إعلانات X/Twitter
 // @namespace    http://tampermonkey.net/
-// @version      0.1.0-alpha
+// @version      0.1.1
 // @description  Hides promoted tweets (ads) on the X/Twitter website.
 // @description:zh-CN 在 X/Twitter 网站上隐藏推广推文（广告）。
 // @description:zh-TW 在 X/Twitter 網站上隱藏推廣推文（廣告）。
@@ -26,7 +26,7 @@
 
     // --- 配置 ---
     const TWEET_CONTAINER_SELECTOR = 'article[role="article"]';
-    const AD_TEXTS = ['Promoted', '推广', 'プロモーション', 'Promocionado', 'إعلان مموّل']; // 添加或确认不同语言的广告词
+    const AD_TEXTS = ['Ad']; 
     const AD_DATA_TESTID_SELECTOR = '[data-testid="placementTracking"]';
     const TIMELINE_OBSERVER_TARGET_SELECTOR = 'main[role="main"]';
 
